@@ -19,7 +19,7 @@ var colors = {
     "color6" : ["Bleu lamute","#bae1fd"],
     "color7" : ["gris Jungle","#333333"],
     "color8" : ["gris roger","#404a56"],
-    "color9" : ["gris roger","#7f8894"],
+    "color9" : ["gris lamute","#7f8894"],
     "color10" : ["gris janine","#f1f1f1"],
     "color11" : ["Jaune Jungle","#fad170"],
     "color12" : ["Jaune roger","#f9e07d"],
