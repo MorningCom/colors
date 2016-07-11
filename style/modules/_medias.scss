@@ -1,0 +1,19 @@
+.logo-full {
+    max-width: 35em;
+}
+.logo-ico {
+    max-width: 9em;
+}
+
+.logo-full-small {
+    max-width: 20em;
+}
+.logo-ico-small {
+    max-width: 4em;
+}
+
+
+.logo-full-small.inverted {
+    padding: 2em;
+    background : $gris-jungle;
+}

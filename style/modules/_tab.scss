@@ -1,0 +1,50 @@
+.tab-content {
+    display: none;
+    h3 {
+        margin-top: 0;
+    }
+}
+
+.tabs-content {
+    padding: 4em;
+    background: $white;
+    img {
+        display: block;
+        margin-bottom: 1em;
+    }
+    p:first-child, p:nth-child(2) {
+        margin-bottom:5em;
+    }
+
+}
+
+
+.tab-content.active {
+    display: block;
+}
+
+.tabs {
+    @include outer-container;
+    margin: 0;
+
+    li {
+        @include span-columns(3.207);
+        background: $gris-lamute-50;
+        list-style-type: none;
+        margin: 0;
+        height: 4em;
+        text-align: center;
+
+        a {
+            color: $white;
+            text-decoration: none;
+            line-height: 4em;
+
+
+        }
+    }
+    li.active {
+        background: $gris-lamute;
+    }
+
+}

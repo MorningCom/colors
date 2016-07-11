@@ -1,0 +1,36 @@
+html, body {
+    margin:0;
+    padding: 0;
+    @include box-sizing(border-box);
+    font-size: 16px;
+    font-family: "lato", helvetica, sans-serif;
+    background: #F1F1F1;
+
+
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat";
+    color: $gris-jungle;
+}
+h1{
+    font-size: 3em;
+    margin: 2em 0;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 2em;
+    text-align: left;
+
+}
+h3 {
+    font-size: 1.2em;
+}
+a {
+    color: $rose-jungle;
+}

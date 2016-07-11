@@ -1,4 +1,3 @@
-
 function $(id) {
     return document.getElementById(id)
 }
@@ -20,13 +19,14 @@ var colors = {
     "color7" : ["gris Jungle","#333333"],
     "color8" : ["gris roger","#404a56"],
     "color9" : ["gris lamute","#7f8894"],
-    "color10" : ["gris janine","#f1f1f1"],
-    "color11" : ["Jaune Jungle","#fad170"],
-    "color12" : ["Jaune roger","#f9e07d"],
-    "colo13" : ["Jaune lamute","#f9edb0"],
-    "color14" : ["Vert Jungle","#35945d"],
-    "color15" : ["Vert roger","#63c48c"],
-    "color16" : ["Vert lamute","#a2efbd"],
+    "color10" : ["gris lamute -50","#BFC3C9"],
+    "color11" : ["gris janine","#f1f1f1"],
+    "color12" : ["Jaune Jungle","#fad170"],
+    "color13" : ["Jaune roger","#f9e07d"],
+    "colo14" : ["Jaune lamute","#f9edb0"],
+    "color15" : ["Vert Jungle","#35945d"],
+    "color16" : ["Vert roger","#63c48c"],
+    "color17" : ["Vert lamute","#a2efbd"]
 };
 
 
@@ -82,3 +82,35 @@ clipboard.on('success', function(e) {
 
     e.clearSelection();
 });
+
+
+
+"use strict";
+var afficherOngler = function (a) {
+    var li = a.parentNode
+    var div = a.parentNode.parentNode.parentNode
+
+    if(li.classList.contains('active')){
+        return false
+    }
+    div.querySelector('.tabs .active').classList.remove('active')
+    li.classList.add('active')
+
+    div.querySelector('.tab-content.active').classList.remove('active')
+    div.querySelector(a.getAttribute('href')).classList.add('active')
+}
+
+var tabs = document.querySelectorAll('.tabs a')
+for (var i = 0; i < tabs.length; i++){
+    tabs[i].addEventListener('click', function (e){
+        afficherOngler(this)
+    })
+
+}
+
+var hash = window.location.hash
+console.log(hash);
+var a = document.querySelector('a[href="'+ hash +'"]')
+if (a !== null && !a.classList.contains('active')) {
+    afficherOngler(a)
+}
