@@ -12,6 +12,7 @@ module.exports = function(grunt){
                 },
                     options: {
                     update: true,
+                    sourcemap: 'auto',
                     style: 'expanded'
 
                 }

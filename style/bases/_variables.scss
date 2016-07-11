@@ -1,0 +1,23 @@
+//font
+$default-font: "Lato", helvetica, Arial, sans-serif;
+$font-secondary: "Montserrat";
+$font-size:1.1875rem;
+$line-height:2rem;
+
+$font-size-small: 0.85em;
+$line-height-small: 1.3em;
+
+//Breakpoint
+$small: new-breakpoint(max-width 480px);
+$small-x: new-breakpoint(max-width 680px);
+$medium: new-breakpoint(max-width 750px);
+$large: new-breakpoint(max-width 960px);
+
+
+$default-container :1024px !default;
+$container-small: 700px;
+
+
+$transition-duration-default: 0.1s;
+
+$radius-default: 2px !default;
