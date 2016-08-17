@@ -13,20 +13,24 @@ var colors = {
     "color1" : ["Rose Jungle","#ef4850"],
     "color2" : ["Rose roger","#ff6c73"],
     "color3" : ["Rose lamute","#f8bcbf"],
+
     "color4" : ["Bleu Jungle","#204762"],
     "color5" : ["Bleu roger","#397395"],
     "color6" : ["Bleu lamute","#bae1fd"],
-    "color7" : ["gris Jungle","#333333"],
-    "color8" : ["gris roger","#404a56"],
-    "color9" : ["gris lamute","#7f8894"],
-    "color10" : ["gris lamute -50","#BFC3C9"],
-    "color11" : ["gris janine","#f1f1f1"],
-    "color12" : ["Jaune Jungle","#fad170"],
-    "color13" : ["Jaune roger","#f9e07d"],
-    "colo14" : ["Jaune lamute","#f9edb0"],
-    "color15" : ["Vert Jungle","#35945d"],
-    "color16" : ["Vert roger","#63c48c"],
-    "color17" : ["Vert lamute","#a2efbd"]
+
+    "color7" : ["Jaune Jungle","#fad170"],
+    "color8" : ["Jaune roger","#f9e07d"],
+    "colo19" : ["Jaune lamute","#f9edb0"],
+
+    "color10" : ["Vert Jungle","#35945d"],
+    "color11" : ["Vert roger","#63c48c"],
+    "color12" : ["Vert lamute","#a2efbd"],
+
+    "color13" : ["gris Jungle","#333333"],
+    "color14" : ["gris roger","#404a56"],
+    "color15" : ["gris lamute","#7f8894"],
+    "color16" : ["gris lamute -50","#BFC3C9"],
+    "color17" : ["gris janine","#f1f1f1"]
 };
 
 
