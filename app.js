@@ -48,6 +48,25 @@ for (var color in colors) {
 
 
 
+var colorsPrint = {
+    "color1" : ["Rose Jungle print","Pantone 710 C","#e73e51"],
+    "color2" : ["Bleu Jungle print","Pantone 288 CP","#12326e"],
+};
+
+
+for (var colorPrint in colorsPrint) {
+    var nouveauDiv = document.createElement("div");
+    nouveauDiv.className = "block";
+
+    nouveauDiv.innerHTML = '\
+        <div class="block-color dark" style="background:'+colorsPrint[colorPrint][2]+'">'+colorsPrint[colorPrint][0]+'</div>\
+        <button class="pick-color btn" data-clipboard-text="'+colorsPrint[colorPrint][1]+'">'+colorsPrint[colorPrint][1]+'</button>\
+        ';
+
+    $("content-print").appendChild(nouveauDiv);
+}
+
+
 function cleanAlert(){
     $("alert").classList.remove("on");
     removeAllChild("alert");
