@@ -10,7 +10,7 @@ function removeAllChild(node){
 }
 
 var colors = {
-    "color1" : ["Rose Jungle","#ef4850"],
+    "color1" : ["Rose ","#ef4850"],
     "color2" : ["Rose roger","#ff6c73"],
     "color3" : ["Rose lamute","#f8bcbf"],
 
